@@ -27,7 +27,7 @@ int main(int argc, char** argv)
 	Endereco e;
 	int total, cmp, tamArq, tamReg, inicio, meio, fim;
 	
-	f = fopen("cep","r");
+	f = fopen("ceps.dat","r");
 	fseek(f,0,SEEK_END);
 	tamArq = ftell(f);
 	tamReg = sizeof(Endereco);
